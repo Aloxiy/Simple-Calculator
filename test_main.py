@@ -114,7 +114,6 @@ def setup_gui_mocks():
     main.Showlabel = MagicMock()
 
 
-
 def test_actionPlus(monkeypatch):
     """Тест кнопки '+'"""
     from main import Numberentry1, Numberentry2, Showlabel, actionPlus
@@ -173,4 +172,4 @@ def test_actionDiv_zero(monkeypatch):
 
 
 if __name__ == "__main__":
-    pytest.main([__file__, "-q", "-s"])
+    pytest.main([__file__, "-v", "--cov=main", "--cov-report=term-missing"])
