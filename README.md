@@ -1,5 +1,5 @@
 # Project Title
-Simple Calculator by python
+Simple Calculator by python, который был немного изменён, а также добавлены тесты
 
 # Getting started
 
